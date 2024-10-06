@@ -52,8 +52,8 @@ public class PlayerController : NetworkBehaviour
 
     private void Die()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
-        transform.localScale = new Vector3(1, 0, 1);
+        transform.localScale = new Vector3(transform.localScale.x, 0, transform.localScale.z);
+        _rb.linearVelocity = Vector3.zero;
         Destroy(this);
     }
 
