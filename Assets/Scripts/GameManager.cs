@@ -2,7 +2,7 @@ using Unity.Netcode;
 using UnityEngine;
 
 public class GameManager : NetworkBehaviour {
-    [SerializeField] private PlayerController _playerPrefab;
+    [SerializeField] private PlayerController playerPrefab;
 
     public override void OnNetworkSpawn() {
         SpawnPlayerServerRpc(NetworkManager.Singleton.LocalClientId);
@@ -10,7 +10,7 @@ public class GameManager : NetworkBehaviour {
 
     [ServerRpc(RequireOwnership = false)]
     private void SpawnPlayerServerRpc(ulong playerId) {
-        var spawn = Instantiate(_playerPrefab);
+        var spawn = Instantiate(playerPrefab);
         spawn.NetworkObject.SpawnWithOwnership(playerId);
     }
 

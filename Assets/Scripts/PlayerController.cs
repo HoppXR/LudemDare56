@@ -49,4 +49,19 @@ public class PlayerController : NetworkBehaviour
         if (_input != Vector3.zero)
             transform.forward = Vector3.Slerp(transform.forward, _input.normalized, Time.deltaTime * rotationSpeed);
     }
+
+    private void Die()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
+        transform.localScale = new Vector3(1, 0, 1);
+        Destroy(this);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("FallingObject"))
+        {
+            Die();
+        }
+    }
 }

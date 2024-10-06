@@ -16,6 +16,7 @@ public class PlayerNetwork : NetworkBehaviour
             {
                 Position = transform.position,
                 Rotation = transform.rotation.eulerAngles,
+                Scale = transform.localScale,
             };
         }
         else
@@ -28,6 +29,7 @@ public class PlayerNetwork : NetworkBehaviour
     struct PlayerNetworkData : INetworkSerializable
     {
         private float _x, _z;
+        private float _yScale;
         private short _rotY;
 
         internal Vector3 Position
@@ -44,6 +46,12 @@ public class PlayerNetwork : NetworkBehaviour
         {
             get => new Vector3(0, _rotY, 0);
             set => _rotY = (short)value.y;
+        }
+
+        internal Vector3 Scale
+        {
+            get => new Vector3(0, _yScale, 0);
+            set => _yScale = value.y;
         }
         
         public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
