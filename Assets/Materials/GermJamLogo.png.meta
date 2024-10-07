@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee1ab8aa71f60684f9467979a4b041bf
+guid: 0640f6d5c9f243b47b70b16c9a7e8221
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JeremyRender_0
+      name: GermJamLogo_0
       rect:
         serializedVersion: 2
-        x: 139
-        y: 16
-        width: 1826
-        height: 1709
+        x: 0
+        y: 0
+        width: 683
+        height: 625
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69fe7a469fbfe424b9b3196b8a3efb27
-      internalID: 1446573576
+      spriteID: fed3dc7e08171c244b9137e4d861d495
+      internalID: -507272358
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ba6ca527888c1034f9595f799338525f
+    spriteID: 9307ea8d76b31ff4e859c4a96248b8a5
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JeremyRender_0: 1446573576
+      GermJamLogo_0: -507272358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
