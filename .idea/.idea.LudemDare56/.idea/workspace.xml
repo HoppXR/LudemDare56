@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e24d4-86b5-4c54-8e17-e1817a9438f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lobby Panel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Player Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lobby Player Panel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Imported/Lobby/LobbyRoomPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Imported/Lobby/LobbyRoomPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

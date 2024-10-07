@@ -19,7 +19,7 @@ public class LobbyRoomPanel : MonoBehaviour {
         Lobby = lobby;
         _nameText.text = lobby.Name;
 
-        _playerCountText.text = $"{lobby.Players.Count}/{lobby.MaxPlayers}";
+        _playerCountText.text = $"{lobby.Players.Count} - {lobby.MaxPlayers}";
     }
 
     public void Clicked() {
