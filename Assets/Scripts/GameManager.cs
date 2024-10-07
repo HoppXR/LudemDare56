@@ -16,6 +16,9 @@ public class GameManager : NetworkBehaviour {
     
     [Header("UI")]
     [SerializeField] private GameObject gameOverUI;
+    [SerializeField] private GameObject[] aliveIcons;
+    [SerializeField] private GameObject[] deadIcons;
+    
     //[SerializeField] private GameObject gameUIPrefab;
     
     public override void OnNetworkSpawn() {
@@ -38,6 +41,7 @@ public class GameManager : NetworkBehaviour {
     private void SpawnPlayerServerRpc(ulong playerId) {
         var spawn = Instantiate(playerPrefabs[_index]);
         spawn.NetworkObject.SpawnWithOwnership(playerId);
+        EnableIconUIForAllClientsServerRpc(_index);
         _index++;
         _playerCount++;
     }
@@ -59,10 +63,12 @@ public class GameManager : NetworkBehaviour {
         Application.Quit();
     }
 
-    public void PlayerDie()
+    public void PlayerDie(int playerIndex)
     {
         _playerCount--;
 
+        PlayerDeathForAllClientsServerRpc(playerIndex);
+        
         if (_playerCount <= 1)
         {
             GameOverForAllClientsServerRpc();
@@ -86,6 +92,42 @@ public class GameManager : NetworkBehaviour {
         gameOverUI.SetActive(true);
         
         Time.timeScale = 0;
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void EnableIconUIForAllClientsServerRpc(int index)
+    {
+        EnableIconUIForAllClientsClientRpc(index);
+    }
+    
+    [ClientRpc]
+    private void EnableIconUIForAllClientsClientRpc(int index)
+    {
+        EnableIconUI(index);
+    }
+
+    private void EnableIconUI(int index)
+    {
+        aliveIcons[index].SetActive(true);
+        deadIcons[index].SetActive(false);
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void PlayerDeathForAllClientsServerRpc(int playerIndex)
+    {
+        PlayerDeathForAllClientsClientRpc(playerIndex);
+    }
+    
+    [ClientRpc]
+    private void PlayerDeathForAllClientsClientRpc(int playerIndex)
+    {
+        PlayerDeathUI(playerIndex);
+    }
+    
+    private void PlayerDeathUI(int playerIndex)
+    {
+        aliveIcons[playerIndex].SetActive(false);
+        deadIcons[playerIndex].SetActive(true);
     }
 
     [ServerRpc(RequireOwnership = false)]

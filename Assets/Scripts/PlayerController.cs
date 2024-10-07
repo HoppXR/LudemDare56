@@ -16,6 +16,9 @@ public class PlayerController : NetworkBehaviour
     //[SerializeField] private GameObject uiDead;
     //private Transform _canvasTransform;
     
+    [Header("Player Index")]
+    [SerializeField] private int playerIndex;
+    
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float maxSpeed;
@@ -92,7 +95,7 @@ public class PlayerController : NetworkBehaviour
         //uiAlive.SetActive(false);
         //uiDead.SetActive(true);
         
-        GameManager.instance.PlayerDie();
+        GameManager.instance.PlayerDie(playerIndex);
         
         _rb.linearVelocity = Vector3.zero;
         

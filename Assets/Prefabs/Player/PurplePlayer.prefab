@@ -225,8 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  uiAlive: {fileID: 158348403269594132, guid: b386a443e521aa143befb918a1caa88e, type: 3}
-  uiDead: {fileID: 2192370979045279563, guid: 6871bcbe7e6755c42b3cb3f4c203fe80, type: 3}
+  playerIndex: 2
   moveSpeed: 10
   maxSpeed: 10
   rotationSpeed: 10
