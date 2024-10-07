@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e24d4-86b5-4c54-8e17-e1817a9438f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
