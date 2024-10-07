@@ -2370,8 +2370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   playerPrefabs:
-  - {fileID: 2224462164820951046, guid: f0dcbcfef8c92884baac5bd42a904f63, type: 3}
   - {fileID: 9180321508949795933, guid: c13a58de62cf66943b831037f8bccf57, type: 3}
+  - {fileID: 2224462164820951046, guid: f0dcbcfef8c92884baac5bd42a904f63, type: 3}
   - {fileID: 3141243022330477891, guid: 01fb6a962c3d2924facc106e0a93527b, type: 3}
   - {fileID: 6781837995130716963, guid: 5d173991dbfe30a469433a68384b1f3c, type: 3}
 --- !u!4 &33592534194432198

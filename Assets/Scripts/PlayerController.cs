@@ -3,23 +3,31 @@ using UnityEngine;
 
 public class PlayerController : NetworkBehaviour
 {
+    //private static readonly int Moving = Animator.StringToHash("Moving");
+    private static readonly int Death = Animator.StringToHash("Death");
+
     #region References
     
     private Rigidbody _rb;
+    private Animator _animator;
     
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float maxSpeed;
     private Vector3 _input;
+    //private bool _moving;
     
     [Header("Rotation")]
     [SerializeField] private float rotationSpeed = 10f;
+
+    //private bool _isDead;
     
     #endregion
     
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
     }
 
     public override void OnNetworkSpawn()
@@ -29,7 +37,12 @@ public class PlayerController : NetworkBehaviour
 
     private void Update()
     {
+        //if (_isDead) return;
+        
         _input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+
+        //_moving = _input != Vector3.zero; 
+        //_animator.SetBool(Moving, _moving);
     }
 
     private void FixedUpdate()
@@ -52,8 +65,11 @@ public class PlayerController : NetworkBehaviour
 
     private void Die()
     {
-        transform.localScale = new Vector3(transform.localScale.x, 0, transform.localScale.z);
-
+        //_isDead = true;
+        
+        //transform.localScale = new Vector3(transform.localScale.x, 0, transform.localScale.z);
+        _animator.SetTrigger(Death);
+        
         _rb.linearVelocity = Vector3.zero;
         Destroy(this);
     }

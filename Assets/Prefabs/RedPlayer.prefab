@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 5024681157253566299}
   - component: {fileID: 8195839564942661100}
   - component: {fileID: 3412663472041737663}
+  - component: {fileID: -3592993071654999565}
   - component: {fileID: 6781837995130716963}
+  - component: {fileID: 91956218672780850}
   m_Layer: 0
   m_Name: RedPlayer
   m_TagString: Untagged
@@ -75,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2273237931
+  GlobalObjectIdHash: 4006956265
   InScenePlacedSourceGlobalObjectIdHash: 2649216770
   DeferredDespawnTick: 0
   Ownership: 1
@@ -102,6 +104,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   cheapInterpolationTime: 0.1
+--- !u!114 &-3592993071654999565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945916979797077115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0727d5ae3244e3b569694d3912374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  TransitionStateInfoList: []
+  m_Animator: {fileID: 91956218672780850}
 --- !u!114 &6781837995130716963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +135,28 @@ MonoBehaviour:
   moveSpeed: 10
   maxSpeed: 10
   rotationSpeed: 10
+--- !u!95 &91956218672780850
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945916979797077115}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ce4419b915360441bce97642104ecce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6821687403250502819
 GameObject:
   m_ObjectHideFlags: 0

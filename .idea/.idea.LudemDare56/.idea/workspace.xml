@@ -6,11 +6,75 @@
   <component name="ChangeListManager">
     <list default="true" id="537e24d4-86b5-4c54-8e17-e1817a9438f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BluePlayerMoveAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BluePlayerMoveAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/GreenGermMoveAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GreenGermMoveAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/BluePlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/BluePlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/GreenPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/GreenPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/PurplePlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/PurplePlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/RedPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/RedPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance01.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance01.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance02.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance02.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance03.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance03.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance04.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance04.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance05.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance05.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance06.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance06.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance07.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance07.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance08.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance08.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance06.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance06.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance07.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance07.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance08.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance08.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Dance Animations - Example Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Dance Animations - Example Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsFloor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsFloor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Male Dancer Dummy.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Male Dancer Dummy.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Female Dancer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Female Dancer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Male Dancer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Male Dancer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceFloor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceFloor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceTextures.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceTextures.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +96,7 @@
     <setting file="file://$USER_HOME$/Downloads/Unity-Matchmaking-main/Assets/_Game/_Scripts/Services/AuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Unity-Matchmaking-main/Assets/_Game/_Scripts/Services/MatchmakingService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -109,6 +174,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
