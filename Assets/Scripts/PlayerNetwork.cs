@@ -16,21 +16,25 @@ public class PlayerNetwork : NetworkBehaviour
             {
                 Position = transform.position,
                 Rotation = transform.rotation.eulerAngles,
-                Scale = transform.localScale,
+                ScaleY = transform.localScale.y,
             };
         }
         else
         {
             transform.position = Vector3.SmoothDamp(transform.position, _netState.Value.Position, ref _vel, cheapInterpolationTime);
             transform.rotation = Quaternion.Euler(0, Mathf.SmoothDampAngle(transform.rotation.eulerAngles.y, _netState.Value.Rotation.y, ref _rotVel, cheapInterpolationTime), 0);
+            
+            var scale = transform.localScale;
+            scale.y = _netState.Value.ScaleY;
+            transform.localScale = scale;
         }
     }
 
     struct PlayerNetworkData : INetworkSerializable
     {
         private float _x, _z;
-        private float _yScale;
         private short _rotY;
+        private float _scaleY;
 
         internal Vector3 Position
         {
@@ -48,10 +52,10 @@ public class PlayerNetwork : NetworkBehaviour
             set => _rotY = (short)value.y;
         }
 
-        internal Vector3 Scale
+        internal float ScaleY
         {
-            get => new Vector3(0, _yScale, 0);
-            set => _yScale = value.y;
+            get => _scaleY;
+            set => _scaleY = value;
         }
         
         public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
@@ -60,6 +64,7 @@ public class PlayerNetwork : NetworkBehaviour
             serializer.SerializeValue(ref _z);
             
             serializer.SerializeValue(ref _rotY);
+            serializer.SerializeValue(ref _scaleY);
         }
     }
 }

@@ -6,7 +6,8 @@ public class FallingObject : NetworkBehaviour
     private Animator _animator;
     [SerializeField] private float fallCooldown = 3;
     private bool _isFalling;
-    private float _nextFallTime;
+    [SerializeField] private float nextFallTime;
+    private float _timer;
     
     void Start()
     {
@@ -15,26 +16,22 @@ public class FallingObject : NetworkBehaviour
 
     void Update()
     {
-        if (!IsServer) return;
+        _timer += Time.deltaTime;
         
         HandleFall();
     }
 
     private void HandleFall()
     {
-        if (Time.time >= _nextFallTime && !_isFalling)
+        if (_timer >= nextFallTime)
         {
             _animator.SetTrigger("Fall");
-            _isFalling = true;
-            _nextFallTime = Time.time + fallCooldown;
+            nextFallTime = _timer + fallCooldown;
             
-            Invoke(nameof(FallComplete), 3f);
+            if (fallCooldown <= 5)
+                fallCooldown = 5;
+            else
+                fallCooldown -= 3;
         }
-    }
-    
-    public void FallComplete()
-    {
-        _isFalling = false;
-        _animator.SetTrigger("GetUp");
     }
 }
