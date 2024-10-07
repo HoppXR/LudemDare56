@@ -4,12 +4,17 @@ using UnityEngine;
 public class PlayerController : NetworkBehaviour
 {
     //private static readonly int Moving = Animator.StringToHash("Moving");
-    private static readonly int Death = Animator.StringToHash("Death");
+    //private static readonly int Death = Animator.StringToHash("Death");
 
     #region References
     
     private Rigidbody _rb;
-    private Animator _animator;
+    //private Animator _animator;
+    
+    //[Header("UI")]
+    //[SerializeField] private GameObject uiAlive;
+    //[SerializeField] private GameObject uiDead;
+    //private Transform _canvasTransform;
     
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
@@ -27,8 +32,23 @@ public class PlayerController : NetworkBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
-        _animator = GetComponent<Animator>();
+        //_animator = GetComponent<Animator>();
     }
+
+    /*
+    private void Start()
+    {
+        _canvasTransform = FindFirstObjectByType<Canvas>().transform;
+        
+        Instantiate(uiAlive);
+        Instantiate(uiDead);
+        
+        uiAlive.transform.SetParent(_canvasTransform);
+        uiDead.transform.SetParent(_canvasTransform);
+        
+        uiAlive.SetActive(true);
+        uiDead.SetActive(false);
+    }*/
 
     public override void OnNetworkSpawn()
     {
@@ -67,10 +87,15 @@ public class PlayerController : NetworkBehaviour
     {
         //_isDead = true;
         
-        //transform.localScale = new Vector3(transform.localScale.x, 0, transform.localScale.z);
-        _animator.SetTrigger(Death);
+        transform.localScale = new Vector3(transform.localScale.x, 0, transform.localScale.z);
+        
+        //uiAlive.SetActive(false);
+        //uiDead.SetActive(true);
+        
+        GameManager.instance.PlayerDie();
         
         _rb.linearVelocity = Vector3.zero;
+        
         Destroy(this);
     }
 

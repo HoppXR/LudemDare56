@@ -6,75 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="537e24d4-86b5-4c54-8e17-e1817a9438f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare56/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/BluePlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/BluePlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/GreenPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/GreenPlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/PurplePlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/PurplePlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Controller/RedPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Controller/RedPlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance01.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance01.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance02.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance02.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance03.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance03.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance04.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance04.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance05.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance05.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance06.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance06.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance07.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance07.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance08.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/AnimationControllers/DancePack@Dance08.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance06.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance06.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance07.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance07.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance08.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Animations/DancePack@Dance08.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Dance Animations - Example Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Dance Animations - Example Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsFloor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsFloor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Materials/DanceAnimationsMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Male Dancer Dummy.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Models/Male Dancer Dummy.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Female Dancer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Female Dancer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Male Dancer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Prefabs/Male Dancer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceFloor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceFloor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceTextures.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Dance Animations/Textures/DanceTextures.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/FlaskAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/FlaskAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/GogglesAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/GogglesAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/SyringeAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/SyringeAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/ThermometerAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/ThermometerAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/TweezerAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Attack/TweezerAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/edo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/edo SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BluePlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Panel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Panel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Player Panel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lobby Player Panel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PurplePlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedPlayer.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ModelLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ModelLayout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +44,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debug/NetworkButtons.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DupeNetworkCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerNetwork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@bd5b7db87b58/Runtime/Core/NetworkBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@bd5b7db87b58/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@bd5b7db87b58/Runtime/Logging/NetworkLog.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.lobby@2721246c56b9/Runtime/Models/Lobby.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../LudemDare56_clone_0/Library/PackageCache/com.unity.netcode.gameobjects@bd5b7db87b58/Runtime/Logging/NetworkLog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../LudemDare56_clone_0/Library/PackageCache/com.unity.transport@ac326714c170/Runtime/DebugLog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Mini-Interactive Project 2/Assets/Scripts/Old Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
@@ -105,18 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Jaden3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Jaden3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe" />
@@ -168,6 +130,7 @@
       <workItem from="1728165070922" duration="5234000" />
       <workItem from="1728171065328" duration="4293000" />
       <workItem from="1728238998906" duration="2524000" />
+      <workItem from="1728321232034" duration="12489000" />
     </task>
     <servers />
   </component>

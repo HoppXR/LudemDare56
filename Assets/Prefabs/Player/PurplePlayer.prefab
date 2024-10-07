@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3033871113
+  GlobalObjectIdHash: 3811842560
   InScenePlacedSourceGlobalObjectIdHash: 1496307174
   DeferredDespawnTick: 0
   Ownership: 1
@@ -225,6 +225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+  uiAlive: {fileID: 158348403269594132, guid: b386a443e521aa143befb918a1caa88e, type: 3}
+  uiDead: {fileID: 2192370979045279563, guid: 6871bcbe7e6755c42b3cb3f4c203fe80, type: 3}
   moveSpeed: 10
   maxSpeed: 10
   rotationSpeed: 10
