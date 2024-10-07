@@ -52,6 +52,7 @@ public class PlayerNetwork : NetworkBehaviour
             set => _rotY = (short)value.y;
         }
 
+        
         internal float ScaleY
         {
             get => _scaleY;
