@@ -13,7 +13,11 @@ public class MainLobbyScreen : MonoBehaviour {
     private float _nextRefreshTime;
 
     private void Update() {
-        if (Time.time >= _nextRefreshTime) FetchLobbies();
+        if (Time.time >= _nextRefreshTime)
+        {
+            _nextRefreshTime = Time.time + _lobbyRefreshRate;
+            FetchLobbies();
+        }
     }
 
     private void OnEnable() {
@@ -23,8 +27,6 @@ public class MainLobbyScreen : MonoBehaviour {
 
     private async void FetchLobbies() {
         try {
-            _nextRefreshTime = Time.time + _lobbyRefreshRate;
-
             // Grab all current lobbies
             var allLobbies = await MatchmakingService.GatherLobbies();
 
