@@ -49,8 +49,10 @@ public class GameManager : NetworkBehaviour {
     public override void OnDestroy() {
         base.OnDestroy();
         StopAllCoroutines();
-        MatchmakingService.LeaveLobby();
-        if(NetworkManager.Singleton != null ) NetworkManager.Singleton.Shutdown();
+        MatchmakingService.LeaveLobby().ContinueWith(
+            result => {
+                if(NetworkManager.Singleton != null && (NetworkManager.Singleton.IsServer || NetworkManager.Singleton.IsClient)) NetworkManager.Singleton.Shutdown();
+            });
     }
 
     public void MainMenu()
